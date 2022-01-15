@@ -1,0 +1,62 @@
+body{
+     width: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+/*-------------------------------------------1st-part-----------------------------------------*/
+.frist-row{
+    margin: 0 auto;
+    padding: 0 auto;
+    color: darkslategray;
+}
+ /*-------------------------------------main contanier style start----------------------------*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Influencer-Products{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.contanier{
+     
+}
+.influencer-info{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.influencer-info img{
+    background-color: rgb(255, 255, 247);
+    margin-left : 200px;
+    height: 350px;
+    width:  350px;
+    border-width: 100px;
+    border-radius: 200px;
+    border:1px solid rgb(231, 220, 220)
+    
+    
+}
+
+
+
+.prebook-button{
+    text-decoration: none;
+    background: #f7387e;
+    padding: 10px 25px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.prebook-button:hover{
+    background-color: #850a47;
+    color: white;
+    width: 700;
+}
+.fa-arrow-circle-right{
+    margin-left: 5px;
+}
+/*-------------------------------main contanier end-------------------------------------------*/
