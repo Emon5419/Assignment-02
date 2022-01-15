@@ -181,5 +181,101 @@ h2{
    padding :0 5px;
   
 }
- 
+.animation{
+font-size: 20px;
+top: 0;
+left: 0;
+color: rgb(173, 58, 58);
+position: relative;
+}
+.animation::before{
+    content: "Influencer";
+    position: absolute;
+    animation: typing 2s, linear infinite;
+}
+@keyframes typing{
+    1%{
+        content: "I |";
+    }
+    4%{
+        content: "I n|";
+    }
+    8%{
+        content: "Inf|";
+    }
+    12%{
+        content: "Infl|";
+    }
+    16%{
+        content: "Influ|";
+    }
+    20%{
+        content: "Influe|";
+    }
+    24%{
+        content: "Influen|";
+    }
+    28%{
+        content: "Influenc|";
+    }
+    32%{
+        content: "Influence|";
+    }
+    36%{
+        content: "Influencer|";
+    }
+    40%{
+       content: "Influence|";
+    }
+    41%{
+        content: "Influenc|";
+    }
+    42%{
+        content: "Influen|";
+    }
+    {
+        content: "Influe|";
+    }
+    56%{
+        content: "Influ|";
+    }
+    60%{
+        content: "Infl|";
+    }
+    64%{
+        content: "Inf|";
+    }
+    68%{
+        content: "In|";
+    }
+    72%{
+        content: "I|";
+    }
+    76%{
+        content: "|";
+    }
+   
+}
+
+/* end  */
+ /* media quaris */
+ @media screen and (max-width: 600px){
+
+     body{
+         font-style: 15px;
+         display: block;
+        
+     }
+    .frist-row{
+        color: red;
+        width: 40%;
+        margin:0 5px;
+        padding:0 5px;         
+    }
+    .influencer-info{
+        height: 50%;
+        width: 50%;
+    }
+
+ }
  
