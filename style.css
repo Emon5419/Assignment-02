@@ -1,62 +1,185 @@
 body{
-     width: 80%;
-    font-family: 'Poppins', sans-serif;
+   width: 100%;
+   font-family: 'Poppins', sans-serif;
+   background-color:#f8f4f4 ;
 }
 /*-------------------------------------------1st-part-----------------------------------------*/
 .frist-row{
-    margin: 0 auto;
-    padding: 0 auto;
-    color: darkslategray;
+   margin: 0 auto;
+   padding: 0 auto;
+   color: darkslategray;
 }
- /*-------------------------------------main contanier style start----------------------------*/
+/*-------------------------------------main contanier style start----------------------------*/
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 #Influencer-Products{
-    margin-top: 50px;
-    padding-left: 50px;
+   margin-top: 50px;
+   padding-left: 50px;
 }
-.contanier{
-     
+.first-contanier{
+   display: flex;
+
 }
 .influencer-info{
-  width: 40%;
-  float: left;
-  margin-left: 5%;
-  padding-left: 2%;
+ width: 40%;
+ float: left;
+ margin-left: 5%;
+ padding-left: 2%;
 }
 .influencer-info img{
-    background-color: rgb(255, 255, 247);
-    margin-left : 200px;
-    height: 350px;
-    width:  350px;
-    border-width: 100px;
-    border-radius: 200px;
-    border:1px solid rgb(231, 220, 220)
-    
-    
+   background-color: rgb(255, 255, 247);
+   margin-left : 200px;
+   height: 350px;
+   width:  350px;
+   border-width: 100px;
+   border-radius: 200px;
+   border:1px solid rgb(231, 220, 220)
+   
+   
 }
 
 
 
 .prebook-button{
-    text-decoration: none;
-    background: #f7387e;
-    padding: 10px 25px;
-    border-radius: 6px;
-    color: #FFFFFF;
-    font-weight: 500;
+   text-decoration: none;
+   background: #f7387e;
+   padding: 10px 25px;
+   border-radius: 6px;
+   color: #FFFFFF;
+   font-weight: 500;
 }
 .prebook-button:hover{
-    background-color: #850a47;
-    color: white;
-    width: 700;
+   background-color: #850a47;
+   color: white;
+   width: 700;
 }
 .fa-arrow-circle-right{
-    margin-left: 5px;
+   margin-left: 5px;
 }
-/*-------------------------------main contanier end-------------------------------------------*/
+/*-------------------------------main contanier style end-------------------------------------*/
+
+/*----------------------------middle contanier style  start-----------------------------------*/
+.contaner{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+h2{
+   
+    text-align: center;
+    color: rebeccapurple;
+}
+.Product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 25px;
+}
+ 
+.Products{
+    display: flex;
+    margin:10px 9px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid lightyellow;
+}
+.thumbnail img{
+     
+    width:  350px;
+    height: 256px;
+    border-radius: 10px;
+   
+}
+.thumbnail{
+    padding: 0 5px;
+    border: 200px;
+}
+
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled {
+ color: #ffc014;
+}
+.fa-star.empty{
+    color: gray;
+}
+/* see more button  */
+.more-button{
+    display: flex;
+    justify-content: right;
+    padding: 10px 20px;
+}
+.ancor-button{
+    text-decoration: none;
+    margin-right: 10px;
+     
+     
+}
+/* bonus-part */
+.bonus-part{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.button {
+    padding-left: 80px;
+    margin-right: 10px;
+
+}
+.button a{
+    padding-top: 10px;
+}
+.bonus-img img{
+    width:  300px;
+    height: 300px;
+    border: 2px solid darkred;
+    border-radius: 30px; 
+}
+.anchor-button{
+    text-decoration: none;
+    background: #f7387e;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 500;  
+}
+/* footer */
+.footer-text{
+  margin: auto;
+  width: 60%;
+  background-color: black;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.svg-icons{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+.footer-section{
+    font-size: 8px;
+    background-color: black;
+    color: white;
+    height: 10%;
+
+}
+.footer-title{
+    
+}
+.footer-title h2{
+    background-color: black;
+    color: #ffffff;
+}
+.img img{
+   align-items: center;
+   height: 25px;
+   width: 25px;
+   margin-left: 300px;
+   padding :0 5px;
+  
+}
+ 
+ 
